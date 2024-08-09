@@ -6,12 +6,13 @@
     <title>my porozhe</title>
     <link rel="stylesheet" href="/assets/materialize/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/util.css">
     <link rel="stylesheet" href="/assets/css/style.css">
 </head><body>
    
-    <nav>
+    <nav class="teal lighten-3 z-depth-1">
         <div class="nav-wrapper">
-          <a href="#!" class="brand-logo">Logo</a>
+          <a href="#!" class="">Home</a>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
             <li><a href="sass.html">Sass</a></li>
@@ -20,13 +21,34 @@
             <li><a href="mobile.html">Mobile</a></li>
           </ul>
         </div>
+
+
       </nav>    
       <ul class="sidenav" id="mobile-demo">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">Javascript</a></li>
-        <li><a href="mobile.html">Mobile</a></li>
+        <li><div class="user-view">
+          <div class="background">
+            <img src="/assets/img/bak3.jpg" class=".w_100%">
+          </div>
+          <a href="#user"><img class="circle" src="/assets/img/p1.jpg"></a>
+          <a href="#name"><span class="white-text name">Ayda hadadi</span></a>
+          <a href="#email"><span class="white-text email">aydaahadadii847@gmail.com</span></a>
+        </div></li>
+        
+        <li><a href="#!"><i class="material-icons">cloud_circle</i>
+          ayda84.youtube
+        </a></li>
+
+        <li><a href="#!"><i class="material-icons">cloud_circle</i>
+          codeyad.com
+        </a></li>
+
+        <li><a href="#!">Second Link</a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="subheader">Subheader</a></li>
+        <li><a class="waves-effect" href="#!">Home</a></li>
+        <li><a class="waves-effect" href="#!">User</a></li>
       </ul>
+     
               
 
     <script src="/assets/materialize/js/materialize.min.js"></script>
