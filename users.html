@@ -13,9 +13,9 @@
   <!-- start---navbar--- -->
     <nav class=" deep-purple lighten-3 z-depth-1">
         <div class="nav-wrapper">
-          <a href="#!" class="">Home</a>
+          <a href="#!" class="hide-on-med-and-up">User Managment</a>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-          <ul class="right hide-on-med-and-down">
+          <ul class="hide-on-med-and-down">
             <li><a href="/">Home</a></li>
             <li><a href="/users.html">User Managment</a></li>
             <li><a href="https://codeyad.com">codeyad</a></li>
@@ -49,10 +49,19 @@
         <li><a class="waves-effect" href="/users.html">User</a></li>
       </ul>
      <!-- end---navbar--- -->
-        <section id="top-action-section">
+        <section id="top-action-section"  class="row">
            
+          <!-- add button -->
+          <div class="p-l-20 p-r-20 p-t-20 m-r-10 m-l-10 m-t-10 col s12 m4 l2">
+            <button class="waves-effect waves-light btn red lighten-4 p-l-30 p-r-30 w-full rounded_pill flex-c">
+              <i class="material-icons m-r-5  ">add</i>
+              Add User
+            </button>
+         </div> 
+
+
             <!-- add button -->
-            <div class="row">
+            <div class="row col s12 m8 l8" >
                 <div class="input-field col s12">
                   <input id="search" type="text" class="validate">
                   <label for="search">
@@ -63,14 +72,117 @@
               </div>
             
         
-            <!-- add button -->
-           <div class="p-l-10 p-r-10 p-t-10">
-              <button class="waves-effect waves-light btn red lighten-4 p-l-30 p-r-30 w-full rounded_pill flex-c">
-                <i class="material-icons m-r-5  ">add</i>
-                Add User
-              </button>
-           </div> 
+            
 
+           <div class="col l2 hide-on-med-and-down"></div>
+
+        </section>
+
+        <section class="users_list_section">
+          <ul class="collapsible">
+            <li class="users_list_item">
+              <div class="collapsible-header"><i class="material-icons  grey-text lighten-3 trans-0-2 users_list_arow_icon">
+                arrow_drop_down_circle
+                </i>
+                Ayda hadadi
+              </div>
+              <div class="collapsible-body">
+                <div class="p-all-5">
+                  <span class="f-bold">Username :</span>
+                  <span>AydaH</span>
+                </div>
+
+                <div class="p-all-5">
+                  <span class="f-bold">Email :</span>
+                  <span>aydaahadadii847@gmail.com</span>
+                </div>
+              
+              
+
+              <div class="p-all-5">
+                <span class="f-bold">Address :</span>
+                <span>berlin street ,p56</span>
+              </div> 
+
+              <div class="p-all-5 flex-l-m">
+                <span class="f-bold">Action :</span>
+                <i class="material-icons m-l-5 m-r-5 red-text">delete_forever</i>
+                <i class="material-icons m-l-5 m-r-5 orange-text">edit</i>
+              </div> 
+
+            </div>
+            </div>
+            </li>
+
+              <li class="users_list_item">
+              <div class="collapsible-header"><i class="material-icons  grey-text lighten-3 
+                trans-0-2 users_list_arow_icon ">arrow_drop_down_circle
+                </i>
+                Mohamad taha hadadi
+              </div>
+              <div class="collapsible-body">
+                <div class="p-all-5">
+                  <span class="f-bold">Username :</span>
+                  <span>Mohamadtaha</span>
+                </div>
+
+                <div class="p-all-5">
+                  <span class="f-bold">Email :</span>
+                  <span>taha92@gmail.com</span>
+                </div>
+
+                <div class="p-all-5">
+                  <span class="f-bold">Address :</span>
+                  <span>toran street , p36</span>
+                </div>
+
+                
+              <div class="p-all-5 flex-l-m">
+                <span class="f-bold">Action :</span>
+                <i class="material-icons m-l-5 m-r-5 red-text">delete_forever</i>
+                <i class="material-icons m-l-5 m-r-5 orange-text">edit</i>
+              </div> 
+
+              
+              </div>
+              </div>
+            </li>
+
+            <li class="users_list_item">
+              <div class="collapsible-header"><i class="material-icons  grey-text lighten-3
+                trans-0-2 users_list_arow_icon">arrow_drop_down_circle
+                </i>
+                Sara rad
+              </div>
+              <div class="collapsible-body">
+                <div class="p-all-5">
+                  <span class="f-bold">Username :</span>
+                  <span>saraa</span>
+                </div>
+
+                <div class="p-all-5">
+                  <span class="f-bold">Email :</span>
+                  <span>sara65radd@gmail.com</span>
+                </div>
+
+                <div class="p-all-5">
+                  <span class="f-bold">Address :</span>
+                  <span>sarv street , p67</span>
+                </div>
+
+                
+              <div class="p-all-5 flex-l-m">
+                <span class="f-bold">Action :</span>
+                <i class="material-icons m-l-5 m-r-5 red-text">delete_forever</i>
+                <i class="material-icons m-l-5 m-r-5 orange-text">edit</i>
+              </div> 
+
+
+              </div>
+              </div>
+            </li>
+
+          </ul>
         </section>
 
      <!-- start---content--- -->
@@ -80,5 +192,6 @@
     
      <script src="/assets/materialize/js/materialize.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/users.js"></script>
 </body>
 </html>

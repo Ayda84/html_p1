@@ -1,3 +1,25 @@
 .w_100{
     width: 100% !important ;
 }
+
+@media only screen and (min-widt:600px){
+    #top-action-section{
+        display: flex !important;
+        align-items: center !important;
+    }} 
+  
+   
+
+
+.users_list_item .users_list_arow_icon{
+    transition: all 200ms ease;
+}
+
+.users_list_item.active .users_list_arow_icon{
+    transform: rotate(180deg);
+}
+
+.users_list_item.active, .users_list_item.active .collapsible-header{
+
+    background-color: rgba(128, 128, 128, 0.2);
+}
