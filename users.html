@@ -49,11 +49,13 @@
         <li><a class="waves-effect" href="/users.html">User</a></li>
       </ul>
      <!-- end---navbar--- -->
-        <section id="top-action-section"  class="row container" >
+       
+     <!-- start---content--- -->
+     <section id="top-action-section"  class="row container" >
            
           <!-- add button -->
           <div class="p-l-20 p-r-20 p-t-20 m-r-10 m-l-10 m-t-10 col s12 m4 l2">
-            <button class="waves-effect waves-light btn red lighten-4 p-l-30 p-r-30 w-full rounded_pill flex-c">
+            <button id="add-user-button" class="waves-effect waves-light btn red lighten-4 p-l-30 p-r-30 w-full rounded_pill flex-c">
               <i class="material-icons m-r-5  ">add</i>
               Add User
             </button>
@@ -183,90 +185,123 @@
             </li>
 
           </ul>
+
+          <div class="hide-on-med-and-down show-on-medium-and-up container">
+            <table class="striped  centered highlight">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Name</th>
+                  <th>Username</th>
+                  <th>Email</th>
+                  <th>Address</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+      
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Ayda hadadi</td>
+                  <td>AydaH</td>
+                  <td>aydaahadadii847@gmail.com</td>
+                  <td>berlin street ,p56</td>
+                  <td>
+                    <i class="material-icons m-l-5 m-r-5 red-text">delete_forever</i>
+                    <i class="material-icons m-l-5 m-r-5 orange-text">edit</i>
+                  </td>
+                </tr>
+              </tbody>
+      
+              <tbody>
+                <tr>
+                  <td>2</td>
+                  <td>Mohamad taha hadadi</td>
+                  <td>Mohamadtaha</td>
+                  <td>taha92@gmail.com</td>
+                  <td>toran street , p36</td>
+                  <td>
+                    <i class="material-icons m-l-5 m-r-5 red-text">delete_forever</i>
+                    <i class="material-icons m-l-5 m-r-5 orange-text">edit</i>
+                  </td>
+                </tr>
+              </tbody>
+      
+              <tbody>
+                <tr>
+                  <td>3</td>
+                  <td>Sara rad</td>
+                  <td>saraa</td>
+                  <td>sara65radd@gmail.com</td>
+                  <td>sarv street , p67</td>
+                  <td>
+                    <i class="material-icons m-l-5 m-r-5 red-text">delete_forever</i>
+                    <i class="material-icons m-l-5 m-r-5 orange-text">edit</i>
+                  </td>
+                </tr>
+              </tbody>
+      
+            </table>
+           </div>
+
+           <div class="pagintion container  p-l-9 p-r-9 p-t-15 p-b-10 flex-sb-m pos-fixed left-0 right-0 bottom-0 icon rounded-30-top z-depth-4">
+            <div class="pagintion_item flex-l p-l-10">
+              showing
+              <span class="m-l-5 m-r-5 flex-m max-w-50 flex-l-m">
+                <input type="number"  class="purple-text lighten-5 no-border center-align m-b-0 "  value="10" >
+              </span> 
+              of
+              <span class="purple-text lighten-5 m-l-5 m-r-5 ">100</span>
+            </div>
+      
+            <div class="pagintion-button">
+              <i class="material-icons purple lighten-3 m-r-5 m-l-5 p-l-5 p-r-5 p-t-1 p-b-3 waves-effect waves-light white-text
+               rounded_pill">
+                chevron_left</i>
+                <i class="material-icons purple lighten-3 m-r-5 m-l-5 p-l-5 p-r-5 p-t-1 p-b-3 waves-effect waves-light white-text
+                 rounded_pill">
+                  chevron_right</i>
+            </div>
+           </div>
+      
         </section>
 
-     <!-- start---content--- -->
-      
-     <div class="hide-on-med-and-down show-on-medium-and-up container">
-      <table class="striped  centered highlight">
-        <thead>
-          <tr>
-            <th>#</th>
-            <th>Name</th>
-            <th>Username</th>
-            <th>Email</th>
-            <th>Address</th>
-            <th>Action</th>
-          </tr>
-        </thead>
-
-        <tbody>
-          <tr>
-            <td>1</td>
-            <td>Ayda hadadi</td>
-            <td>AydaH</td>
-            <td>aydaahadadii847@gmail.com</td>
-            <td>berlin street ,p56</td>
-            <td>
-              <i class="material-icons m-l-5 m-r-5 red-text">delete_forever</i>
-              <i class="material-icons m-l-5 m-r-5 orange-text">edit</i>
-            </td>
-          </tr>
-        </tbody>
-
-        <tbody>
-          <tr>
-            <td>2</td>
-            <td>Mohamad taha hadadi</td>
-            <td>Mohamadtaha</td>
-            <td>taha92@gmail.com</td>
-            <td>toran street , p36</td>
-            <td>
-              <i class="material-icons m-l-5 m-r-5 red-text">delete_forever</i>
-              <i class="material-icons m-l-5 m-r-5 orange-text">edit</i>
-            </td>
-          </tr>
-        </tbody>
-
-        <tbody>
-          <tr>
-            <td>3</td>
-            <td>Sara rad</td>
-            <td>saraa</td>
-            <td>sara65radd@gmail.com</td>
-            <td>sarv street , p67</td>
-            <td>
-              <i class="material-icons m-l-5 m-r-5 red-text">delete_forever</i>
-              <i class="material-icons m-l-5 m-r-5 orange-text">edit</i>
-            </td>
-          </tr>
-        </tbody>
-
-      </table>
-     </div>
-
-     <div class="pagintion container  p-l-9 p-r-9 p-t-15 p-b-10 flex-sb-m pos-fixed left-0 right-0 bottom-0 icon rounded-30-top z-depth-4">
-      <div class="pagintion_item flex-l p-l-10">
-        showing
-        <span class="m-l-5 m-r-5 flex-m max-w-50 flex-l-m">
-          <input type="number"  class="purple-text lighten-5 no-border center-align m-b-0 "  value="10" >
-        </span> 
-        of
-        <span class="purple-text lighten-5 m-l-5 m-r-5 ">100</span>
-      </div>
-
-      <div class="pagintion-button">
-        <i class="material-icons purple lighten-3 m-r-5 m-l-5 p-l-5 p-r-5 p-t-1 p-b-3 waves-effect waves-light white-text
-         rounded_pill">
-          chevron_left</i>
-          <i class="material-icons purple lighten-3 m-r-5 m-l-5 p-l-5 p-r-5 p-t-1 p-b-3 waves-effect waves-light white-text
-           rounded_pill">
-            chevron_right</i>
-      </div>
-     </div>
-     
     
-    
+    <div class="add-user-modal-back dis-none"></div>
+    <div class="add-user-modal container trans-0-2">
+      <div class="row p-t-10 p-b-10 p-r-40 p-l-40 center">
+        <h5>
+          <i class="material-icons m-r-10 m-l-10 pos-relative top-4">person_add</i>
+          Add User
+        </h5>
+
+        <form>
+          <div class="input-field col s12">
+            <input id="Name" type="text" class="validate">
+            <label for="Name">Name:</label>
+          </div>
+
+          <div class="input-field col s12">
+            <input id="Username" type="text" class="validate">
+            <label for="Username">Username:</label>
+          </div>
+
+          <div class="input-field col s12">
+            <input id="Email" type="text" class="validate">
+            <label for="Email">Email:</label>
+          </div>
+
+          <button
+          type="button"
+          class="waves-effect waves-light btn purple lighten-2  m-t-20 m-b-10 w-full max-w-200 rounded_pill">
+          submit
+        </button>
+        </form>
+
+      </div>
+    </div>
+
+
      <script src="/assets/materialize/js/materialize.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/users.js"></script>
