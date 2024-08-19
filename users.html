@@ -247,7 +247,7 @@
             </table>
            </div>
 
-           <div class="pagintion container  p-l-9 p-r-9 p-t-15 p-b-10 flex-sb-m pos-fixed left-0 right-0 bottom-0 icon rounded-30-top z-depth-4">
+           <div class="pagintion container white p-l-9 p-r-9 p-t-15 p-b-10 flex-sb-m pos-fixed left-0 right-0 bottom-0 icon rounded-30-top z-depth-4">
             <div class="pagintion_item flex-l p-l-10">
               showing
               <span class="m-l-5 m-r-5 flex-m max-w-50 flex-l-m">
@@ -304,7 +304,14 @@
       </div>
     </div>
 
+    <section id="test_section" class="grey" x-data="mainData()" >
+      1111
+      <span x-text="massage" class="pink"></span>
+      <button class="btn" x-on:click="testFunc()">click</button>
+    </section>
 
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script  src="./assets/js/alpinecontollers/manicontroller.js"></script>
      <script src="/assets/materialize/js/materialize.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/users.js"></script>
